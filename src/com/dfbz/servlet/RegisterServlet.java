@@ -47,6 +47,9 @@ public class RegisterServlet extends HttpServlet {
         }
         out.print("用户对象："+user.toString());
 
+
+
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
